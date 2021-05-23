@@ -29,7 +29,7 @@
         }
 
         var phone = form.Phone.value;
-        if (isNaN(phone) || phone.lenght > 15 || phone === null || phone === "") {
+        if (isNaN(phone) || phone.length > 15 || phone === null || phone === "") {
             errors.push("Invalid phone number");
         }
 
